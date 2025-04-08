@@ -1,0 +1,71 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+      <mj-text font-size="15px" line-height="1.6" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .highlight {
+        color: #d32f2f;
+        font-weight: bold;
+      }
+      .label {
+        font-weight: bold;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+
+    <!-- Header -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="left" font-size="18px" font-weight="bold">
+          📩 Nuevo mensaje desde el formulario del sitio web
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Cuerpo del mensaje -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p><span class="label">Nombre:</span> <span class="highlight">{{from_name}}</span></p>
+          <p><span class="label">Email:</span> <span class="highlight">{{from_email}}</span></p>
+          <p><span class="label">Teléfono:</span> <span class="highlight">{{from_phone}}</span></p>
+          <p><span class="label">Tipo de evento:</span> <span class="highlight">{{from_event_type}}</span></p>
+          <p><span class="label">Fecha del evento:</span> <span class="highlight">{{from_event_date}}</span></p>
+          <p><span class="label">Cantidad aprox. de personas:</span> <span class="highlight">{{from_people}}</span></p>
+          <p><span class="label">Comentarios:</span><br/><span class="highlight">{{from_message}}</span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Timestamp -->
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="13px" color="#999999">
+          📬 Este mensaje fue recibido el {{timestamp}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Separador -->
+    <mj-section>
+      <mj-column>
+        <mj-divider border-color="#dddddd" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Firma Chilisites -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://github.com/jrdelrio/parque-lipangue-backend/blob/main/templates/logo-chilisites.png?raw=true" alt="Chilisites" width="150px" />
+        <mj-text font-size="13px" color="#aaaaaa" align="center">
+          Creado con 🤍 por 🌶️ <a href="https://chilisites.com" style="color: #aaaaaa; text-decoration: none;">chilisites.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
