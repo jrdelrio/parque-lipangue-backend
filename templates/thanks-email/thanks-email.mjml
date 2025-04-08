@@ -1,0 +1,99 @@
+<mjml>
+  <mj-head>
+    <!-- Importar Signika desde Google Fonts -->
+    <mj-font name="Josefin Sans" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" />
+
+    <!-- Importar FontAwesome -->
+    <mj-raw>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    </mj-raw>
+
+    <mj-attributes>
+      <mj-all font-family="Josefin Sans" color="#ffffff" />
+      <mj-section background-color="#000000" />
+      <mj-text color="#ffffff" />
+      <mj-button background-color="#25D366" color="#ffffff" border-radius="4px" font-size="14px" padding="10px 25px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#000000">
+    
+    <!-- LOGO -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="URL_DEL_LOGO_AQUI" alt="Logo Parque Lipangue" align="center" width="200px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- TEXTO INICIAL -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="18px" line-height="1.5">
+          Hola {{from_name}},<br /><br />
+          Muchas gracias por contactarte con nosotros e interesarte en este lugar tan especial para tu evento.<br /><br />
+          A la brevedad nos contactaremos contigo a través de tu correo electrónico para que puedas hacernos tus preguntas y comentarios.<br /><br />
+          Recuerda que puedes escribirnos a cualquiera de nuestros WhatsApps si tienes consultas:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- BOTONES WHATSAPP CON ÍCONO -->
+    <mj-section>
+      <mj-column>
+        <mj-button href="https://wa.me/56982098082" font-weight="bold">
+          <i class="fa-brands fa-whatsapp" style="margin-right: 8px;"></i> Contactar a Angélica
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-button href="https://wa.me/56966663276" font-weight="bold">
+          <i class="fa-brands fa-whatsapp" style="margin-right: 8px;"></i> Contactar a Claudia
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- IMAGEN DESTACADA -->
+    <!-- imagen del lugar, una PRO -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="URL_DE_LA_FOTO_DEL_LUGAR_AQUI" alt="Parque Lipangue" border-radius="10px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- TEXTO FINAL -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="16px" line-height="1.5">
+          Mientras tanto, Parque Lipangue te invita a visitar sus redes sociales y conocer la experiencia que ha hecho muy feliz a otros de nuestros huéspedes.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SEPARADOR -->
+    <mj-section padding="10px 0">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- REDES SOCIALES (solo íconos) -->
+    <mj-section>
+      <mj-column>
+        <mj-social mode="horizontal" align="center" icon-size="24px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/profile.php?id=61552010138665" background-color="#000000" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/centroparquelipangue/" background-color="#000000" />
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/eventos-lipangue-64382a182/" background-color="#000000" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- FIRMA CHILISITES (fuente por defecto del sistema) -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="13px" font-family="Helvetica, Arial, sans-serif" color="#aaaaaa">
+          Creado con 🤍 por 🌶️ <a href="https://chilisites.com" style="color: #aaaaaa; text-decoration: none;">chilisites</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

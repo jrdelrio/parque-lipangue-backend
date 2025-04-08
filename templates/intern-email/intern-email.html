@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mensaje del sitio web</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        color: #333333;
+        padding: 20px;
+      }
+      .highlight {
+        color: #d32f2f; /* rojo */
+        font-weight: bold;
+      }
+      .label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <strong>Equipo de Parque Lipangue</strong>, ha entrado un mensaje a través del
+      formulario del sitio web con la siguiente información:
+    </p>
+
+    <p><span class="label">Nombre:</span> <span class="highlight">{{from_name}}</span></p>
+    <p><span class="label">Email:</span> <span class="highlight">{{from_email}}</span></p>
+    <p><span class="label">Teléfono:</span> <span class="highlight">{{from_phone}}</span></p>
+    <p><span class="label">Tipo de evento:</span> <span class="highlight">{{from_event_type}}</span></p>
+    <p><span class="label">Fecha del evento:</span> <span class="highlight">{{from_event_date}}</span></p>
+    <p><span class="label">Cantidad aprox. de personas:</span> <span class="highlight">{{from_people}}</span></p>
+    <p><span class="label">Comentarios:</span><br /><span class="highlight">{{from_message}}</span></p>
+
+    <hr />
+
+    <p style="font-size: 12px; color: #999999;">
+      📬 Este mensaje fue recibido el <span class="highlight">{{timestamp}}</span>
+    </p>
+  </body>
+</html>
