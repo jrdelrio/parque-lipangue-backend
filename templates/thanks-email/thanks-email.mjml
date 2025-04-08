@@ -21,7 +21,7 @@
     <!-- LOGO -->
     <mj-section>
       <mj-column>
-        <mj-image src="../logo-transp-bg-column.png" alt="Logo Parque Lipangue" align="center" width="250px" />
+        <mj-image src="https://github.com/jrdelrio/parque-lipangue-backend/blob/main/templates/logo-transp-bg-column.png?raw=true" alt="Logo Parque Lipangue" align="center" width="250px" />
       </mj-column>
     </mj-section>
 
@@ -55,7 +55,7 @@
     <!-- imagen del lugar, una PRO -->
     <mj-section>
       <mj-column>
-        <mj-image src="../parque-img-email.jpg" alt="Parque Lipangue" border-radius="10px" width="370px" />
+        <mj-image src="https://github.com/jrdelrio/parque-lipangue-backend/blob/main/templates/parque-img-email.jpg?raw=true" alt="Parque Lipangue" border-radius="10px" width="370px" />
       </mj-column>
     </mj-section>
 
