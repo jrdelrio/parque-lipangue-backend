@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <!-- Importar Signika desde Google Fonts -->
-    <mj-font name="Josefin Sans" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" />
+    <!-- <mj-font name="Josefin Sans" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" /> -->
 
     <!-- Importar FontAwesome -->
     <mj-raw>
@@ -9,7 +9,7 @@
     </mj-raw>
 
     <mj-attributes>
-      <mj-all font-family="Josefin Sans" color="#ffffff" />
+      <mj-all font-family="Tahoma, sans-serif" color="#ffffff" />
       <mj-section background-color="#000000" />
       <mj-text color="#ffffff" />
       <mj-button background-color="#25D366" color="#ffffff" border-radius="4px" font-size="14px" padding="10px 25px" />

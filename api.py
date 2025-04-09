@@ -89,7 +89,7 @@ def ordereat_send_intern_email():
 def ordereat_send_email():
     data = request.json
 
-    file_path = os.path.join(os.path.dirname(__file__), "templates/thanks-email", "thanks-email.html")
+    file_path = os.path.join(os.path.dirname(__file__), "./templates/thanks-email", "thanks-email.html")
     
     with open(file_path, "r", encoding="utf-8") as file:
         
