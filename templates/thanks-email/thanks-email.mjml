@@ -13,6 +13,7 @@
       <mj-section background-color="#000000" />
       <mj-text color="#ffffff" />
       <mj-button background-color="#25D366" color="#ffffff" border-radius="4px" font-size="14px" padding="10px 25px" />
+      <mj-social-element background-color="#000000" color="#fff" />
     </mj-attributes>
   </mj-head>
 
@@ -79,9 +80,9 @@
     <mj-section>
       <mj-column>
         <mj-social mode="horizontal" align="center" icon-size="24px">
-          <mj-social-element name="facebook" href="https://www.facebook.com/profile.php?id=61552010138665" background-color="#000000" background-color="#ffffff" />
-          <mj-social-element name="instagram" href="https://www.instagram.com/centroparquelipangue/" background-color="#000000" background-color="#ffffff" />
-          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/eventos-lipangue-64382a182/" background-color="#000000" background-color="#ffffff" />
+          <mj-social-element name="facebook" href="https://www.facebook.com/profile.php?id=61552010138665" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/centroparquelipangue/" />
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/eventos-lipangue-64382a182/" />
         </mj-social>
       </mj-column>
     </mj-section>
