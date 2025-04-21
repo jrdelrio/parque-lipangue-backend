@@ -51,7 +51,7 @@ def ordereat_send_intern_email():
             "{{from_phone}}": data.get("fromPhone", ""),
             "{{from_event_type}}": data.get("fromEventType", ""),
             "{{from_event_date}}": data.get("fromEventDate", ""),
-            "{{from_people}}": data.get("fromPeople", ""),
+            "{{from_people}}": str(data.get("fromPeople", "")),
             "{{from_message}}": data.get("fromMessage", "(No se proporcionó mensaje)"),
             "{{timestamp}}": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
@@ -127,5 +127,5 @@ def ordereat_send_email():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port="5000")
+    app.run(host='0.0.0.0', port="5001")
     
