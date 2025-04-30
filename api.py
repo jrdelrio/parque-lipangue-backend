@@ -66,7 +66,7 @@ def ordereat_send_intern_email():
         
         params_for_email = {
             "from": "Parque Lipangue Web <contacto@parquelipangue.cl>",
-            "to": ["contacto@parquelipangue.cl", "angelica.apparcel@gmail.com", "claudiaurrutiav@gmail.com"],
+            "to": ["contacto@parquelipangue.cl"],
             "subject": f"Nuevo mensaje de {data.get('fromName', '** SIN NOMBRE **')}",
             "html": email_template,
         }
