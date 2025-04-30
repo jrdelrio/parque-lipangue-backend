@@ -80,9 +80,8 @@
     <mj-section>
       <mj-column>
         <mj-social mode="horizontal" align="center" icon-size="24px">
-          <mj-social-element name="facebook" href="https://www.facebook.com/profile.php?id=61552010138665" />
           <mj-social-element name="instagram" href="https://www.instagram.com/centroparquelipangue/" />
-          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/eventos-lipangue-64382a182/" />
+          <mj-social-element name="facebook" href="https://www.facebook.com/profile.php?id=61552010138665" />
         </mj-social>
       </mj-column>
     </mj-section>
